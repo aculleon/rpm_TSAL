@@ -3312,7 +3312,7 @@
 	)
 	(gr_rect
 		(start 47.425 59.325)
-		(end 123.025 125.625)
+		(end 123.025 144.325)
 		(stroke
 			(width 0.05)
 			(type default)
