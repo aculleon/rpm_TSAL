@@ -2958,6 +2958,19 @@
 		)
 		(uuid "fba99cf2-26ad-4232-aeab-7edeb64a1e72")
 	)
+	(text "CHECK ACTIVATION CIRCUIT"
+		(exclude_from_sim no)
+		(at 139.7 64.262 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(color 255 0 32 1)
+			)
+		)
+		(uuid "7f87fc3f-df72-41dd-8990-2b3f06ce1cb3")
+	)
 	(global_label "TSAL_RD"
 		(shape input)
 		(at 114.3 128.27 90)
