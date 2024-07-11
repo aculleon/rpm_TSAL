@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ac388131-8957-4019-801c-2c73d51b781e")
+	(paper "A4")
+	(title_block
+		(title "TSAL")
+		(date "2024-07-11")
+		(rev "V0.1")
+		(company "Team RPM - UAS Münster")
+		(comment 1 "Luca Sapion")
+	)
+	(lib_symbols)
+)

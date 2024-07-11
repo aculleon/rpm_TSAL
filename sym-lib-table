@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADUM5202")(type "KiCad")(uri "${KIPRJMOD}/LIB/ADUM5202WCRWZ.kicad_sym")(options "")(descr ""))
+  (lib (name "Zettler")(type "KiCad")(uri "${KIPRJMOD}/LIB/Zettler.kicad_sym")(options "")(descr ""))
+)
