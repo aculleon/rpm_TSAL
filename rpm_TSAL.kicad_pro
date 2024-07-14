@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -473,7 +473,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "LIB/sylized_RPM_LIGHT.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -538,13 +538,37 @@
           "group_by": false,
           "label": "Mouser",
           "name": "Mouser",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cost",
+          "name": "Cost",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -581,8 +605,16 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "LIB\\sylized_RPM.kicad_wks",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -608,6 +640,10 @@
     [
       "f7b112a3-d52d-469c-9966-20e9274e8679",
       "TSAL_RED"
+    ],
+    [
+      "3d691545-fb91-40e8-bbf0-202d017ae861",
+      "TS_Sense"
     ]
   ],
   "text_variables": {}

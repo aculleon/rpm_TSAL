@@ -3,4 +3,5 @@
   (lib (name "ADUM5202")(type "KiCad")(uri "${KIPRJMOD}/LIB/ADUM5202WCRWZ.pretty")(options "")(descr ""))
   (lib (name "wuerth_conn")(type "KiCad")(uri "${KIPRJMOD}/wuerth_conn.pretty")(options "")(descr ""))
   (lib (name "Zettler")(type "KiCad")(uri "${KIPRJMOD}/LIB/Zettler.pretty")(options "")(descr ""))
+  (lib (name "TSAL")(type "KiCad")(uri "${KIPRJMOD}/LIB/TSAL.pretty")(options "")(descr ""))
 )
