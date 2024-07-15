@@ -369,14 +369,14 @@
 		)
 	)
 	(junction
-		(at 147.32 78.74)
+		(at 147.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54736604-6fa0-4290-8df5-7ff1342373a0")
+		(uuid "aba11e3a-f8d2-4335-9966-9fcdd8f5dd6b")
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 107.95 78.74)
+			(xy 147.32 88.9) (xy 107.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -386,7 +386,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 48.26) (xy 187.96 58.42)
+			(xy 184.15 48.26) (xy 184.15 58.42)
 		)
 		(stroke
 			(width 0)
@@ -396,13 +396,33 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 107.95 53.34)
+			(xy 147.32 88.9) (xy 147.32 84.074)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1040c04f-51d5-4868-b984-8252ebf768ee")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 107.95 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "10f11a9a-e542-499f-99e5-696973de6f4e")
+	)
+	(wire
+		(pts
+			(xy 193.04 26.67) (xy 199.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8cb388-6655-40e9-b3fc-4ea7942733c4")
 	)
 	(wire
 		(pts
@@ -426,7 +446,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 185.42 58.42)
+			(xy 181.61 48.26) (xy 181.61 58.42)
 		)
 		(stroke
 			(width 0)
@@ -436,7 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 182.88 58.42)
+			(xy 179.07 48.26) (xy 179.07 58.42)
 		)
 		(stroke
 			(width 0)
@@ -456,23 +476,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 48.26) (xy 179.07 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335bf844-b5ed-4956-915a-d31793abd374")
-	)
-	(wire
-		(pts
-			(xy 147.32 99.06) (xy 147.32 78.74)
+			(xy 147.32 99.06) (xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4951b917-91f6-41fd-96d6-8bb14ea9c340")
+	)
+	(wire
+		(pts
+			(xy 193.04 29.21) (xy 199.39 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e05315-fe82-4ddc-aada-d019e809975b")
 	)
 	(wire
 		(pts
@@ -506,16 +526,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 48.26) (xy 173.99 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "829aabad-1493-419f-a58d-bf8c10bfe6b3")
-	)
-	(wire
-		(pts
 			(xy 34.29 171.45) (xy 73.66 171.45)
 		)
 		(stroke
@@ -536,13 +546,33 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 147.32 73.66)
+			(xy 193.04 71.12) (xy 199.39 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be07a3d1-6232-4e48-935d-d83bd5c2d03e")
+		(uuid "94b103f6-88b2-4957-9b37-3d1d56d87dd4")
+	)
+	(wire
+		(pts
+			(xy 193.04 73.66) (xy 199.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7cacbf-1812-452e-a89d-70890bfa78a1")
+	)
+	(wire
+		(pts
+			(xy 193.04 24.13) (xy 199.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b286ee-ecc0-47b6-9386-74f304c751c1")
 	)
 	(wire
 		(pts
@@ -563,6 +593,16 @@
 			(type default)
 		)
 		(uuid "bfff0cd2-9f81-444b-90b4-b459d6734975")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f2371f-5969-4d46-b08c-95b9676bc1b4")
 	)
 	(wire
 		(pts
@@ -594,16 +634,6 @@
 		)
 		(uuid "eba18a2c-b335-4a64-bf78-4eb6f3d42f79")
 	)
-	(wire
-		(pts
-			(xy 176.53 48.26) (xy 176.53 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff1acfb9-eca7-47e9-866f-7de3cc7fea36")
-	)
 	(rectangle
 		(start 22.225 147.955)
 		(end 87.63 194.31)
@@ -631,7 +661,7 @@
 		(uuid 8781de40-1ba1-4c51-92bb-9c742cbd41db)
 	)
 	(image
-		(at 251.46 41.91)
+		(at 250.952 117.094)
 		(scale 0.768822)
 		(uuid "3087b3ad-045a-46c0-9452-08e42e9ac709")
 		(data "iVBORw0KGgoAAAANSUhEUgAABAAAAAN/CAYAAABAzqoZAAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -1847,7 +1877,7 @@
 	)
 	(text_box "_{Voltage on the PCB }\n\nCAN AND WILL EXCEED 120 V_{DC}\n\n_{Personnel will need E2 or higher}"
 		(exclude_from_sim no)
-		(at 218.44 72.39 0)
+		(at 217.932 147.574 0)
 		(size 66.04 24.13)
 		(stroke
 			(width 0)
@@ -2594,8 +2624,7 @@
 	)
 	(sheet
 		(at 114.3 58.42)
-		(size 78.74 15.24)
-		(fields_autoplaced yes)
+		(size 78.74 25.654)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2605,7 +2634,7 @@
 		)
 		(uuid "1a6105b4-d8c9-4b72-aeae-cd270d9afdc2")
 		(property "Sheetname" "TSAL_Plausibility"
-			(at 114.3 57.7084 0)
+			(at 113.792 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2643,7 @@
 			)
 		)
 		(property "Sheetfile" "TSAL_plausibility.kicad_sch"
-			(at 114.3 74.2446 0)
+			(at 162.306 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2652,7 @@
 			)
 		)
 		(pin "AIR2" input
-			(at 185.42 58.42 90)
+			(at 181.61 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2662,7 @@
 			(uuid "7ecb4f51-05b4-418f-83c5-3cc8ac814f69")
 		)
 		(pin "AIR1" input
-			(at 182.88 58.42 90)
+			(at 179.07 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2682,7 @@
 			(uuid "2d9a3345-648c-4fd8-823a-810b23deaa4a")
 		)
 		(pin "PRCH" input
-			(at 187.96 58.42 90)
+			(at 184.15 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2712,7 @@
 			(uuid "7b02f9b5-2359-42b4-b74f-51aeae30f178")
 		)
 		(pin "AIR1_AUX" input
-			(at 173.99 58.42 90)
+			(at 193.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2722,7 @@
 			(uuid "50d407c8-be7f-4114-bd80-33ebe2ca0aae")
 		)
 		(pin "AIR2_AUX" input
-			(at 176.53 58.42 90)
+			(at 193.04 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +2732,7 @@
 			(uuid "faff6c70-c11f-49f2-aca1-e6fa20c6a2c5")
 		)
 		(pin "TS_ON" input
-			(at 147.32 73.66 270)
+			(at 147.32 84.074 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2742,7 @@
 			(uuid "80a32ce3-7758-43c3-9597-f5619601350c")
 		)
 		(pin "PRCH_AUX" input
-			(at 179.07 58.42 90)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,6 +2755,114 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 17.526)
+		(size 24.638 66.548)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33fbaf4f-cdc3-420c-b424-42f6ac6b44f5")
+		(property "Sheetname" "SCS Integrity Check"
+			(at 199.39 16.8144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SCS_integrity_check.kicad_sch"
+			(at 199.39 84.6586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCS_Status" output
+			(at 199.39 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "222b818b-2474-4d55-af0d-7bd4f8266cca")
+		)
+		(pin "PRCH_AUX" output
+			(at 199.39 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3bd72e3f-816c-4400-92e2-d8d74dac75c9")
+		)
+		(pin "AIR2_AUX" output
+			(at 199.39 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "443dee92-f122-49cf-8c59-379084c15ebc")
+		)
+		(pin "PRCH_AUX_Unbuffered" input
+			(at 199.39 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24216a71-75e8-4d86-9ab7-d37c396f1010")
+		)
+		(pin "AIR1_AUX" output
+			(at 199.39 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50ec68cc-74fd-4287-8b5e-36d5b6cab752")
+		)
+		(pin "AIR1_AUX_Unbuffered" input
+			(at 199.39 24.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2676baf-3c49-4bda-8043-1d1618e033cc")
+		)
+		(pin "AIR2_AUX_Unbuffered" input
+			(at 199.39 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c75007be-6ee4-4cf1-a2f2-f473bc694caf")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
+					(page "4")
 				)
 			)
 		)
@@ -2799,8 +2936,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 27.305)
-		(size 78.74 20.955)
+		(at 114.3 17.526)
+		(size 78.74 30.734)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2811,7 +2948,7 @@
 		)
 		(uuid "82ce20ac-d113-4cbe-a341-3a0579a7187c")
 		(property "Sheetname" "LV_Connectors"
-			(at 114.3 26.5934 0)
+			(at 114.3 16.8144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2827,16 +2964,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "PRCH_AUX" output
-			(at 179.07 48.26 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8a7aa349-f520-4cdf-9747-ef2f2d0e1157")
 		)
 		(pin "SC" output
 			(at 167.64 48.26 270)
@@ -2878,26 +3005,6 @@
 			)
 			(uuid "1a2b0ba0-0657-4360-aa51-4504de34fa57")
 		)
-		(pin "AIR2_AUX" output
-			(at 176.53 48.26 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "612fde54-fdc7-4877-9a3d-4d0886219bb9")
-		)
-		(pin "AIR1_AUX" output
-			(at 173.99 48.26 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "65aec36c-a50c-4b5e-b164-aeba55198777")
-		)
 		(pin "TS_ON" input
 			(at 144.78 48.26 270)
 			(effects
@@ -2909,7 +3016,7 @@
 			(uuid "5c892e8f-5f90-4fe8-a893-c7e23ce984e7")
 		)
 		(pin "AIR2_Coil" bidirectional
-			(at 185.42 48.26 270)
+			(at 181.61 48.26 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3026,7 @@
 			(uuid "07563d27-f808-4fd7-af02-ec2b9c522cc9")
 		)
 		(pin "AIR1_Coil" bidirectional
-			(at 182.88 48.26 270)
+			(at 179.07 48.26 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +3036,7 @@
 			(uuid "777c6f57-cf4e-4bcb-9eea-48437315d521")
 		)
 		(pin "PRCH_Coil" bidirectional
-			(at 187.96 48.26 270)
+			(at 184.15 48.26 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,6 +3044,36 @@
 				(justify left)
 			)
 			(uuid "d60eaedd-6074-47be-929c-df9d919a69ea")
+		)
+		(pin "AIR2_AUX" output
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb6f4943-25e9-4ac3-9e87-2208b9c6bbc5")
+		)
+		(pin "AIR1_AUX" output
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ffc7a98-8849-4591-bae9-0ee424f6a1fc")
+		)
+		(pin "PRCH_AUX" output
+			(at 193.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62717df0-08a5-4751-98b7-b8ad2dca8a9c")
 		)
 		(instances
 			(project "rpm_TSAL"
@@ -3009,7 +3146,7 @@
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
-					(page "4")
+					(page "6")
 				)
 			)
 		)

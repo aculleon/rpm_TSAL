@@ -638,12 +638,16 @@
       "TSAL_Plausibility"
     ],
     [
-      "f7b112a3-d52d-469c-9966-20e9274e8679",
-      "TSAL_RED"
+      "33fbaf4f-cdc3-420c-b424-42f6ac6b44f5",
+      "SCS Integrity Check"
     ],
     [
       "3d691545-fb91-40e8-bbf0-202d017ae861",
       "TS_Sense"
+    ],
+    [
+      "f7b112a3-d52d-469c-9966-20e9274e8679",
+      "TSAL_RED"
     ]
   ],
   "text_variables": {}
