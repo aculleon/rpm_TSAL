@@ -208,6 +208,207 @@
 				)
 			)
 		)
+		(symbol "Converter_DCDC:TBA1-0511E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TBA1-0511E"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V fixed output voltage, 200mA output, 1.5kVDC isolation, SIP-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Traco isolated isolation dc-dc converter not-regulated non-regulated single 1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*TRACO*TBA1*xxxxE*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TBA1-0511E_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TBA1-0511E_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1008,222 +1209,6 @@
 				)
 			)
 		)
-		(symbol "power:+7.5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+7.5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+7.5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+7.5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:-6V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-6V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-6V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-6V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-6V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1370,6 +1355,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 50.8) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c61ad8-cb83-4538-a0ec-7b1987801d81")
+	)
+	(wire
+		(pts
 			(xy 71.12 86.36) (xy 74.93 86.36)
 		)
 		(stroke
@@ -1419,6 +1414,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "288f604b-a9dc-4a42-bb02-79fe89a3f315")
+	)
+	(polyline
+		(pts
+			(xy 82.55 60.325) (xy 82.55 78.105)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "30470261-7eaf-4204-a878-e557664952a3")
 	)
 	(wire
 		(pts
@@ -1525,6 +1530,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "7dfb4d2b-9821-4280-a299-a081968d58ee")
+	)
+	(polyline
+		(pts
+			(xy 82.55 93.98) (xy 82.55 193.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7e992d02-5a12-42c2-b89f-4e191051a6df")
 	)
 	(wire
 		(pts
@@ -1650,6 +1665,16 @@
 			(type default)
 		)
 		(uuid "bec63092-29b5-4b08-b9c8-0bc9b15b85e9")
+	)
+	(polyline
+		(pts
+			(xy 82.55 12.7) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c9d973ae-99a9-403e-946c-2a8e2ace391b")
 	)
 	(wire
 		(pts
@@ -2483,17 +2508,77 @@
 			"dGRhdGU6bW9kaWZ5ADIwMjQtMDctMDRUMTI6MTY6MjkrMDA6MDBZETOWAAAAAElFTkSuQmCC"
 		)
 	)
-	(text "Footprint Check"
+	(text "TS VOLTAGE AREA"
 		(exclude_from_sim no)
-		(at 82.55 89.154 0)
+		(at 171.196 45.466 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "4a0addcb-17a0-4198-b04a-da1375d389ba")
+	)
+	(text "ISO 3750kV_{rms}"
+		(exclude_from_sim no)
+		(at 82.55 106.172 90)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
 				(bold yes)
 			)
 		)
-		(uuid "e5f5372f-2a2f-4f88-a199-6a6bb7f3b777")
+		(uuid "7f75fac9-4c4d-4290-8490-dcea493ee3ed")
+	)
+	(text "ISO 1.5kV"
+		(exclude_from_sim no)
+		(at 82.55 33.782 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "d6c8f135-5e14-43f1-9d33-b38994e6512c")
+	)
+	(text "LVS"
+		(exclude_from_sim no)
+		(at 45.466 24.13 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 0.762)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "f15a5935-d7d3-4924-8cfa-bb5b62dde368")
+	)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 92.71 55.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "204cea13-55f9-4d95-8225-79b0e2ea63d4")
+	)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 90.17 99.06 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "377443f5-c055-4613-8b0e-172aa0fdbd11")
 	)
 	(hierarchical_label "TS_ON"
 		(shape output)
@@ -2506,6 +2591,42 @@
 			(justify right)
 		)
 		(uuid "62739d43-0334-49df-adba-2f7da5789aae")
+	)
+	(hierarchical_label "TS+"
+		(shape input)
+		(at 234.95 109.22 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c524af89-fba0-406b-8c3c-70d3e7b854e6")
+	)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 114.3 100.33 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb66a350-19ac-4d98-a0ab-8e919f68899f")
+	)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 138.43 96.52 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebf0ccdf-9e4e-4f19-8623-56fc80f9ba9a")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2908,6 +3029,72 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b087916-a1d7-483b-9ff7-99ef84d072c8")
+		(property "Reference" "#PWR016"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a552662-d23b-47ab-b5e9-ef5b96195af3")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3388,6 +3575,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f431ffe-aa16-471a-a0f1-755f3d896a76")
+		(property "Reference" "#PWR027"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_{iso}"
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddb6dd48-087d-484e-8ae3-ff3e3e71229d")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:SFH617A-1X007T")
 		(at 82.55 88.9 0)
 		(mirror y)
@@ -3753,72 +4006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-6V")
-		(at 114.3 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89cc1016-4a4e-4f4d-bfd0-2d016511ac01")
-		(property "Reference" "#PWR052"
-			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HV-"
-			(at 114.3 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 114.3 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3758f15-e56b-40b6-bc47-1fa688e6ffa5")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 149.86 87.63 0)
 		(mirror x)
@@ -3881,72 +4068,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+7.5V")
-		(at 234.95 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94d4e358-aef1-4040-b5f9-104213fa1f25")
-		(property "Reference" "#PWR051"
-			(at 234.95 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" " HV+"
-			(at 234.95 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ece6b0a-d52d-47d0-9725-5479f13f9f0c")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4492,72 +4613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-6V")
-		(at 90.17 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c62a09f8-8511-419f-b405-7e80976015aa")
-		(property "Reference" "#PWR049"
-			(at 90.17 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HV-"
-			(at 90.17 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 90.17 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6babd45d-7ba1-457e-a9d6-80db43ba5061")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA355NA")
 		(at 125.73 86.36 0)
 		(mirror y)
@@ -4651,6 +4706,72 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 72.39 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caa10557-9d8a-4a66-a8f5-fc1c0e8d713c")
+		(property "Reference" "#PWR018"
+			(at 72.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24a09722-9fb3-4480-b5f7-4e04f3b15f49")
+		)
+		(instances
+			(project ""
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4792,6 +4913,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Converter_DCDC:TBA1-0511E")
+		(at 82.55 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e661befc-7e2e-496b-b336-7b03ae0fc52f")
+		(property "Reference" "U16"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBA1-0511E"
+			(at 82.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1W DC/DC converter unregulated, 4.5-5.5V input, 5V fixed output voltage, 200mA output, 1.5kVDC isolation, SIP-7"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "495-TBA1-0511E"
+			(at 82.55 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee2e1315-217f-4b95-b186-d1db920c30e5")
+		)
+		(pin "1"
+			(uuid "a4f17292-b97b-4ad5-ab1d-684250c5e90d")
+		)
+		(pin "4"
+			(uuid "d67daff1-495b-412c-aeb1-be283da3a132")
+		)
+		(pin "6"
+			(uuid "3446bb6d-d6fe-4b1c-b5d3-fb23350d79be")
+		)
+		(instances
+			(project ""
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 128.27 73.66 0)
 		(unit 1)
@@ -4852,72 +5056,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-6V")
-		(at 138.43 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4b8b5cb-0513-4b17-977e-aace27d34570")
-		(property "Reference" "#PWR047"
-			(at 138.43 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HV-"
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 138.43 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4880fd23-1741-4d9e-8825-b2966f7fa4f8")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
