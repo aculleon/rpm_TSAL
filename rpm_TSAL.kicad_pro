@@ -631,11 +631,11 @@
     ],
     [
       "82ce20ac-d113-4cbe-a341-3a0579a7187c",
-      "LV_Connectors"
+      "LV Connectors"
     ],
     [
       "1a6105b4-d8c9-4b72-aeae-cd270d9afdc2",
-      "TSAL_Plausibility"
+      "TSAL Plausibility"
     ],
     [
       "33fbaf4f-cdc3-420c-b424-42f6ac6b44f5",
@@ -643,11 +643,11 @@
     ],
     [
       "3d691545-fb91-40e8-bbf0-202d017ae861",
-      "TS_Sense"
+      "TS Sense"
     ],
     [
       "f7b112a3-d52d-469c-9966-20e9274e8679",
-      "TSAL_RED"
+      "TSAL RED"
     ]
   ],
   "text_variables": {}

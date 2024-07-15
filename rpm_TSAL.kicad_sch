@@ -396,7 +396,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 84.074)
+			(xy 147.32 88.9) (xy 147.32 83.82)
 		)
 		(stroke
 			(width 0)
@@ -413,16 +413,6 @@
 			(type default)
 		)
 		(uuid "10f11a9a-e542-499f-99e5-696973de6f4e")
-	)
-	(wire
-		(pts
-			(xy 193.04 26.67) (xy 199.39 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8cb388-6655-40e9-b3fc-4ea7942733c4")
 	)
 	(wire
 		(pts
@@ -492,7 +482,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "65e05315-fe82-4ddc-aada-d019e809975b")
+		(uuid "68d2e823-6875-413a-b59a-10a4354bc76a")
 	)
 	(wire
 		(pts
@@ -566,13 +556,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 24.13) (xy 199.39 24.13)
+			(xy 193.04 34.29) (xy 199.39 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6b286ee-ecc0-47b6-9386-74f304c751c1")
+		(uuid "b70ef1d0-7fa0-4f62-a914-514b8ed96f66")
 	)
 	(wire
 		(pts
@@ -616,6 +606,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 24.13) (xy 199.39 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04178af-39e9-46ab-9430-1faac41277ce")
+	)
+	(wire
+		(pts
 			(xy 114.3 38.1) (xy 21.59 38.1)
 		)
 		(stroke
@@ -633,6 +633,16 @@
 			(type default)
 		)
 		(uuid "eba18a2c-b335-4a64-bf78-4eb6f3d42f79")
+	)
+	(wire
+		(pts
+			(xy 193.04 26.67) (xy 199.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb31cbbf-75b2-43ef-a908-c5665c72d021")
 	)
 	(rectangle
 		(start 22.225 147.955)
@@ -1916,7 +1926,7 @@
 	)
 	(text "TS Sense RED\nConnector"
 		(exclude_from_sim no)
-		(at 22.606 152.654 0)
+		(at 22.86 152.4 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1929,7 +1939,7 @@
 	)
 	(text "TS Sense\nConnector"
 		(exclude_from_sim no)
-		(at 91.186 152.654 0)
+		(at 91.44 152.4 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2426,7 +2436,7 @@
 	)
 	(symbol
 		(lib_id "power:-6V")
-		(at 100.33 109.22 180)
+		(at 101.6 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2435,7 +2445,7 @@
 		(fields_autoplaced yes)
 		(uuid "e89f2e1b-8fc8-4919-a0df-6cc63203385b")
 		(property "Reference" "#PWR012"
-			(at 100.33 105.41 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2454,7 @@
 			)
 		)
 		(property "Value" "HV-"
-			(at 100.33 114.3 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 100.33 109.22 0)
+			(at 101.6 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,7 +2568,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 100.33 90.17 0)
+		(at 101.6 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2567,7 +2577,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8b10cca-98f0-47ab-b903-5647d0106bfd")
 		(property "Reference" "#PWR06"
-			(at 100.33 93.98 0)
+			(at 101.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2576,7 +2586,7 @@
 			)
 		)
 		(property "Value" " HV+"
-			(at 100.33 85.09 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 90.17 0)
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 90.17 0)
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 100.33 90.17 0)
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2634,7 @@
 	)
 	(sheet
 		(at 114.3 58.42)
-		(size 78.74 25.654)
+		(size 78.74 25.4)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2633,7 +2643,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1a6105b4-d8c9-4b72-aeae-cd270d9afdc2")
-		(property "Sheetname" "TSAL_Plausibility"
+		(property "Sheetname" "TSAL Plausibility"
 			(at 113.792 58.166 0)
 			(effects
 				(font
@@ -2732,7 +2742,7 @@
 			(uuid "faff6c70-c11f-49f2-aca1-e6fa20c6a2c5")
 		)
 		(pin "TS_ON" input
-			(at 147.32 84.074 270)
+			(at 147.32 83.82 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,8 +2770,8 @@
 		)
 	)
 	(sheet
-		(at 199.39 17.526)
-		(size 24.638 66.548)
+		(at 199.39 17.78)
+		(size 24.13 66.04)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2772,7 +2782,7 @@
 		)
 		(uuid "33fbaf4f-cdc3-420c-b424-42f6ac6b44f5")
 		(property "Sheetname" "SCS Integrity Check"
-			(at 199.39 16.8144 0)
+			(at 199.39 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2791,7 @@
 			)
 		)
 		(property "Sheetfile" "SCS_integrity_check.kicad_sch"
-			(at 199.39 84.6586 0)
+			(at 199.39 84.9126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2800,7 @@
 			)
 		)
 		(pin "SCS_Status" output
-			(at 199.39 35.56 180)
+			(at 199.39 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,8 +2878,8 @@
 		)
 	)
 	(sheet
-		(at 74.295 90.17)
-		(size 34.925 19.05)
+		(at 74.93 90.17)
+		(size 34.29 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2879,8 +2889,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3d691545-fb91-40e8-bbf0-202d017ae861")
-		(property "Sheetname" "TS_Sense"
-			(at 74.295 89.4584 0)
+		(property "Sheetname" "TS Sense"
+			(at 74.93 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2899,7 @@
 			)
 		)
 		(property "Sheetfile" "TS_sense.kicad_sch"
-			(at 74.295 109.8046 0)
+			(at 74.93 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2918,7 @@
 			(uuid "a36eb9df-d135-482d-a8d3-8febebf9b1e3")
 		)
 		(pin "TS+" input
-			(at 100.33 90.17 90)
+			(at 101.6 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2928,7 @@
 			(uuid "85aa6c86-dd2c-4a29-a472-d2c61253e515")
 		)
 		(pin "TS-" input
-			(at 100.33 109.22 270)
+			(at 101.6 109.22 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,8 +2946,8 @@
 		)
 	)
 	(sheet
-		(at 114.3 17.526)
-		(size 78.74 30.734)
+		(at 114.3 17.78)
+		(size 78.74 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2947,8 +2957,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "82ce20ac-d113-4cbe-a341-3a0579a7187c")
-		(property "Sheetname" "LV_Connectors"
-			(at 114.3 16.8144 0)
+		(property "Sheetname" "LV Connectors"
+			(at 114.3 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2967,7 @@
 			)
 		)
 		(property "Sheetfile" "lv_connectors.kicad_sch"
-			(at 114.3 48.8446 0)
+			(at 114.3 49.0986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,6 +3085,16 @@
 			)
 			(uuid "62717df0-08a5-4751-98b7-b8ad2dca8a9c")
 		)
+		(pin "SCS_Status" input
+			(at 193.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e85da88-048f-4af3-8729-a9e9b66fcd5f")
+		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
@@ -3095,7 +3115,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f7b112a3-d52d-469c-9966-20e9274e8679")
-		(property "Sheetname" "TSAL_RED"
+		(property "Sheetname" "TSAL RED"
 			(at 26.67 89.4584 0)
 			(effects
 				(font
