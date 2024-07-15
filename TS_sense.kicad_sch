@@ -1542,17 +1542,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 83.82) (xy 173.99 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "10bbbac8-2267-4450-9a5a-5619f9fa88dc")
-	)
-	(wire
-		(pts
 			(xy 92.71 50.8) (xy 101.6 50.8)
 		)
 		(stroke
@@ -1573,17 +1562,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 218.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "225432cb-1800-4c7c-985a-2c32edbbf224")
-	)
-	(wire
-		(pts
 			(xy 114.3 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -1594,6 +1572,17 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 83.82) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "2679548b-82bd-4941-9b1b-30343ad43927")
+	)
+	(wire
+		(pts
 			(xy 133.35 83.82) (xy 149.86 83.82)
 		)
 		(stroke
@@ -1601,17 +1590,6 @@
 			(type default)
 		)
 		(uuid "27af3583-83f0-4ed4-875f-bbcf39bc040b")
-	)
-	(wire
-		(pts
-			(xy 181.61 109.22) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "288f604b-a9dc-4a42-bb02-79fe89a3f315")
 	)
 	(polyline
 		(pts
@@ -1635,17 +1613,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 109.22) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "3aa67178-faa4-4490-8fef-019f110cac7f")
-	)
-	(wire
-		(pts
 			(xy 71.12 91.44) (xy 74.93 91.44)
 		)
 		(stroke
@@ -1656,24 +1623,14 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 109.22) (xy 181.61 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d922d3e-f12b-45bb-9b9b-782870871cd6")
-	)
-	(wire
-		(pts
-			(xy 226.06 109.22) (xy 234.95 109.22)
+			(xy 209.55 83.82) (xy 208.28 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 153 0 1)
 		)
-		(uuid "4f059c62-542f-468e-b54c-c1357bad4efa")
+		(uuid "4dc7035e-e6bc-49ee-94ea-3a816f848bab")
 	)
 	(wire
 		(pts
@@ -1697,28 +1654,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 83.82) (xy 226.06 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "5a1a64e7-00e7-4c31-ae75-6b7c3e4edccf")
-	)
-	(wire
-		(pts
-			(xy 209.55 83.82) (xy 208.28 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "5d63ebd3-cd6d-447b-bab1-27b0732924d7")
-	)
-	(wire
-		(pts
 			(xy 182.88 83.82) (xy 181.61 83.82)
 		)
 		(stroke
@@ -1726,18 +1661,7 @@
 			(type default)
 			(color 255 153 0 1)
 		)
-		(uuid "721dc754-de84-4f4c-af27-0f75519df933")
-	)
-	(wire
-		(pts
-			(xy 165.1 83.82) (xy 163.83 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "7dfb4d2b-9821-4280-a299-a081968d58ee")
+		(uuid "775cbcfd-e6c0-41f2-868c-cc5016a18c4d")
 	)
 	(polyline
 		(pts
@@ -1771,6 +1695,28 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "895cfec8-9d7f-4058-bad2-cb9810c640ee")
+	)
+	(wire
+		(pts
+			(xy 200.66 83.82) (xy 199.39 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "8b83f395-9a8f-40a2-bedb-9d5ff17d18c3")
+	)
+	(wire
+		(pts
 			(xy 69.85 91.44) (xy 71.12 91.44)
 		)
 		(stroke
@@ -1791,14 +1737,14 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 96.52) (xy 200.66 96.52)
+			(xy 191.77 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 153 0 1)
 		)
-		(uuid "98b97d46-c75c-4e11-b3e5-6e760a3d7cd0")
+		(uuid "9777f687-094b-4ad5-87a5-da73e93425ee")
 	)
 	(wire
 		(pts
@@ -1862,39 +1808,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 96.52) (xy 209.55 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "af12a4a1-f904-4656-ae1e-59336717900f")
-	)
-	(wire
-		(pts
-			(xy 217.17 109.22) (xy 218.44 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "afe60411-3a19-41e6-892d-e6e3eb14353e")
-	)
-	(wire
-		(pts
-			(xy 200.66 83.82) (xy 199.39 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "b1bf1469-df4c-4582-a02b-0d9a4960d248")
-	)
-	(wire
-		(pts
 			(xy 50.8 50.8) (xy 63.5 50.8)
 		)
 		(stroke
@@ -1902,17 +1815,6 @@
 			(type default)
 		)
 		(uuid "b3484aa6-89ec-4d19-9d5d-01d1e6e3ec95")
-	)
-	(wire
-		(pts
-			(xy 190.5 96.52) (xy 191.77 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "bea81f02-d926-4d89-8791-8ba87a2b181e")
 	)
 	(wire
 		(pts
@@ -1946,17 +1848,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 83.82) (xy 217.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "cc062aab-8579-4ec0-8e95-cbbd23f827e8")
-	)
-	(wire
-		(pts
 			(xy 92.71 58.42) (xy 92.71 55.88)
 		)
 		(stroke
@@ -1964,17 +1855,6 @@
 			(type default)
 		)
 		(uuid "cfd9285f-5ee7-48c7-98b1-a5903cc6f5ff")
-	)
-	(wire
-		(pts
-			(xy 190.5 109.22) (xy 191.77 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "d23be2dc-c85d-423c-b83c-855a42509e08")
 	)
 	(wire
 		(pts
@@ -2038,39 +1918,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 83.82) (xy 190.5 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "ebe5ba8f-954b-49d8-855c-5c89bead83d3")
-	)
-	(wire
-		(pts
-			(xy 199.39 109.22) (xy 200.66 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "edbcfca1-5820-4d80-9c57-dc3ea563194a")
-	)
-	(wire
-		(pts
-			(xy 181.61 96.52) (xy 182.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "fc70a13c-ec85-4266-84fc-19415bf4d31d")
-	)
-	(wire
-		(pts
 			(xy 149.86 83.82) (xy 156.21 83.82)
 		)
 		(stroke
@@ -2079,20 +1926,9 @@
 		)
 		(uuid "fe33ca92-2cbb-443a-bfb3-b36e650cf8d8")
 	)
-	(wire
-		(pts
-			(xy 173.99 96.52) (xy 173.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "fe7cdc40-1055-4710-8bab-a15f8c0433fc")
-	)
 	(rectangle
-		(start 156.21 80.645)
-		(end 241.3 117.475)
+		(start 156.21 77.47)
+		(end 213.36 93.726)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -2102,7 +1938,7 @@
 			(type color)
 			(color 255 153 0 0.11)
 		)
-		(uuid 7aeb7e7a-ec87-465e-a5cb-b2238a8d101a)
+		(uuid 50e1ae7b-2363-4996-9233-78c5eb2fb0b2)
 	)
 	(image
 		(at 265.43 29.21)
@@ -2844,6 +2680,17 @@
 		)
 		(uuid "f15a5935-d7d3-4924-8cfa-bb5b62dde368")
 	)
+	(text "Resistor Datasheet"
+		(exclude_from_sim no)
+		(at 182.372 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.mouser.de/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf")
+		)
+		(uuid "f85e36b0-8f79-49aa-8b65-4d21204cbcff")
+	)
 	(hierarchical_label "TS-"
 		(shape input)
 		(at 101.6 58.42 270)
@@ -2882,7 +2729,7 @@
 	)
 	(hierarchical_label "TS+"
 		(shape input)
-		(at 234.95 109.22 90)
+		(at 209.55 83.82 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2890,7 +2737,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c524af89-fba0-406b-8c3c-70d3e7b854e6")
+		(uuid "89c1f344-f65a-4a60-8896-8b5c4d53fd26")
 	)
 	(hierarchical_label "TS-"
 		(shape input)
@@ -2918,41 +2765,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 96.52 90)
+		(at 186.69 83.82 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07dde254-c31f-4f65-9e0c-1651c0cbcbac")
-		(property "Reference" "R51"
-			(at 186.69 102.87 90)
+		(uuid "2a2aa512-d6d7-41f9-902b-d51e0495207e")
+		(property "Reference" "R11"
+			(at 186.69 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 186.69 100.33 90)
+		(property "Value" "52k3"
+			(at 186.69 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 96.52 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 186.69 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,66 +2798,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 186.69 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f5d7b2d-a767-410d-b471-8335dc5a28c6")
-		)
-		(pin "1"
-			(uuid "3dcccef5-0b1c-4d3e-9646-508ebd5a28aa")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 160.02 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18b335d0-5c4b-40eb-bb57-4a530d26ef8e")
-		(property "Reference" "R39"
-			(at 160.02 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 160.02 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 83.82 0)
+		(property "Datasheet" "R2"
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +2808,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 83.82 0)
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.05"
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0805DRD0752K3L"
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,286 +2835,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ae064c0-e7be-4864-b44d-5091349860dc")
+			(uuid "7f6a4a3e-f3f4-47d2-b16a-61be00cd5a68")
 		)
 		(pin "1"
-			(uuid "8a9a1904-92d4-48ff-8035-8218ff439d56")
+			(uuid "46e3b41a-3ef9-475f-b7ba-81ec21e825db")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 195.58 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "297577f4-92c2-4cdd-9dc5-103ce7267fd1")
-		(property "Reference" "R50"
-			(at 195.58 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 195.58 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 195.58 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 195.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0dff6544-dafb-4f95-aca1-9f5b3385569d")
-		)
-		(pin "1"
-			(uuid "654a870e-16cd-4ebe-803c-58a1a179d7d6")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 96.52 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "323fb8d6-d198-4171-92c8-7605c69e809d")
-		(property "Reference" "R52"
-			(at 177.8 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 177.8 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97f0dbcc-60ff-4495-9cfb-82efb245f4ff")
-		)
-		(pin "1"
-			(uuid "209e8a4e-86e1-434c-a113-35bf6f8067ec")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 109.22 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34e40a5b-3e58-4993-a040-e54ba4ea0c27")
-		(property "Reference" "R54"
-			(at 186.69 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 186.69 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c8263f3-5b7e-49e9-b80e-886f81602ef7")
-		)
-		(pin "1"
-			(uuid "12af4202-2782-44f6-ab46-829487e71ba8")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 213.36 83.82 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35988c01-3a98-4bff-93a7-b742e93ca074")
-		(property "Reference" "R45"
-			(at 213.36 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 213.36 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 213.36 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72372042-4b74-46ef-b7a6-ebe3469a0bcf")
-		)
-		(pin "1"
-			(uuid "95e10f3e-0e6e-41b5-bad1-7d340191e75e")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R45")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3393,74 +2920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 213.36 96.52 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50b5f964-2af4-4065-b095-a0324501473d")
-		(property "Reference" "R48"
-			(at 213.36 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 213.36 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 213.36 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9a4f83c3-16f1-4f30-b25d-26edab283cbc")
-		)
-		(pin "1"
-			(uuid "b42c8e5c-f0ac-4e13-bbd1-4b75ace9506b")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 63.5 50.8 0)
 		(unit 1)
@@ -3521,73 +2980,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "570880ae-08ed-4352-8baa-12580bb36c53")
-		(property "Reference" "R44"
-			(at 204.47 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 204.47 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 204.47 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c16eb4f5-e93f-4817-b727-4e1ae35445d4")
-		)
-		(pin "1"
-			(uuid "c67e295e-0018-4211-a24e-df5694e799a3")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -3658,74 +3050,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 83.82 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61dc21e3-5be6-4018-a7ae-d02e0d9e7bdf")
-		(property "Reference" "R42"
-			(at 186.69 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 186.69 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.69 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9b3b1a57-8808-423a-a897-1885e092775d")
-		)
-		(pin "1"
-			(uuid "fece2f3f-72fc-4152-a342-334ecbd5fa8a")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3804,32 +3128,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 222.25 109.22 90)
-		(mirror x)
+		(at 204.47 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "68301ccc-33ce-452d-ac11-855e6e8b5e2f")
-		(property "Reference" "R58"
-			(at 222.25 115.57 90)
+		(uuid "66b40617-516c-4249-bd33-7fc6f1d3e8ff")
+		(property "Reference" "R13"
+			(at 204.47 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 222.25 113.03 90)
+		(property "Value" "52k3"
+			(at 204.47 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 107.442 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 204.47 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,8 +3160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 222.25 109.22 0)
+		(property "Datasheet" "R2"
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3170,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 109.22 0)
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.05"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0805DRD0752K3L"
+			(at 204.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,15 +3197,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ee3b63e-4645-4f9e-802a-e38cced2263e")
+			(uuid "e9565c0e-3e17-4826-bbed-454900f873b3")
 		)
 		(pin "1"
-			(uuid "425e43b1-10c7-48c4-ad21-c5ea6c55918c")
+			(uuid "5f2da0f9-4097-468a-bf50-3659f656a42c")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R58")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3931,73 +3272,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec65868-ffcd-4b62-8de0-81b1bc5c5a75")
-		(property "Reference" "R56"
-			(at 204.47 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 204.47 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 204.47 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d688a7e2-9d15-425b-bd8a-ab5d16e555a8")
-		)
-		(pin "1"
-			(uuid "e8ce190e-5c3d-4630-8369-0afceb2e2644")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -4300,32 +3574,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 222.25 83.82 90)
-		(mirror x)
+		(at 177.8 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "85ea64a3-795f-433f-8e16-6c22e6625baa")
-		(property "Reference" "R46"
-			(at 222.25 90.17 90)
+		(uuid "81905839-146f-45e7-abaa-f218327fed38")
+		(property "Reference" "R10"
+			(at 177.8 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 222.25 87.63 90)
+		(property "Value" "52k3"
+			(at 177.8 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 82.042 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 177.8 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,8 +3606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 222.25 83.82 0)
+		(property "Datasheet" "R2"
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +3616,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 222.25 83.82 0)
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.05"
+			(at 177.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0805DRD0752K3L"
+			(at 177.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,15 +3643,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "524eb0a4-1145-4407-bb5a-8cca5a49e648")
+			(uuid "4cbf382a-989f-4ecb-a95e-b04ce8d455d3")
 		)
 		(pin "1"
-			(uuid "17e5bcad-8ec8-4bb7-a04c-bf79f7793448")
+			(uuid "3f30aa1a-f606-4186-bc58-394334fda48a")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R46")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4375,8 +3666,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87409edf-31ee-457d-9591-1df7be334f8f")
-		(property "Reference" "R43"
+		(uuid "8bd91ae7-4371-43cc-958f-7ef04ebbf881")
+		(property "Reference" "R12"
 			(at 195.58 90.17 90)
 			(effects
 				(font
@@ -4384,7 +3675,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "52k3"
 			(at 195.58 87.63 90)
 			(effects
 				(font
@@ -4392,7 +3683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 195.58 82.042 90)
 			(effects
 				(font
@@ -4401,7 +3692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "R2"
 			(at 195.58 83.82 0)
 			(effects
 				(font
@@ -4419,16 +3710,34 @@
 				(hide yes)
 			)
 		)
+		(property "Cost" "0.05"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0805DRD0752K3L"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "e79af41d-6aef-414d-bf0e-f2290ad446d5")
+			(uuid "3115dabb-9451-486d-868c-371113bb8bb0")
 		)
 		(pin "1"
-			(uuid "af1c70b7-6bd9-42ce-9101-86a0cec061e8")
+			(uuid "acadd190-6719-4a9d-9308-2dd15b427804")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R43")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4641,32 +3950,31 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 96.52 90)
-		(mirror x)
+		(at 168.91 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aadcc38c-048a-49ea-9a62-a606fb6027d7")
-		(property "Reference" "R49"
-			(at 204.47 102.87 90)
+		(uuid "ae28abe9-414f-469e-a098-b5d3a297f077")
+		(property "Reference" "R9"
+			(at 168.91 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 204.47 100.33 90)
+		(property "Value" "52k3"
+			(at 168.91 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 204.47 94.742 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 168.91 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,8 +3982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 204.47 96.52 0)
+		(property "Datasheet" "R2"
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +3992,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.47 96.52 0)
+			(at 168.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.05"
+			(at 168.91 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0805DRD0752K3L"
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,150 +4019,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8049f752-9f6f-4ccd-9be8-f4da90ffdd4f")
+			(uuid "c84e8d36-1b1c-446e-923a-a7dd934931c9")
 		)
 		(pin "1"
-			(uuid "3f1636d6-c89c-4c6d-a421-e848e1a063eb")
+			(uuid "e27c7d7f-9841-4c47-b923-8e2c07d40950")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b241a5d3-8e50-4c28-b8bb-48d73ab76db0")
-		(property "Reference" "R41"
-			(at 177.8 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 177.8 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28edf383-7fc6-417a-85a4-bedca98784c5")
-		)
-		(pin "1"
-			(uuid "d671f260-1779-4140-80ee-3cf630957b23")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 195.58 109.22 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3b0d4d6-ef39-4510-aa92-7890c3de2eeb")
-		(property "Reference" "R55"
-			(at 195.58 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 195.58 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 195.58 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 195.58 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bdb5ad05-7d48-41a1-96a1-7303380e4469")
-		)
-		(pin "1"
-			(uuid "f6d49b91-d9e5-4004-b87e-56e1f35ec01e")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R55")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4905,208 +4096,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 213.36 109.22 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c18d7c88-8971-4ee3-8a37-7e7fe8874c7e")
-		(property "Reference" "R57"
-			(at 213.36 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 213.36 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 213.36 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "801e5209-f2e7-46cb-96c3-d5738b7c1646")
-		)
-		(pin "1"
-			(uuid "749897c8-fef5-4598-8bb1-4b5b43ca0512")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3c6b09a-6dcf-4bca-8943-0beb7c5c7cf2")
-		(property "Reference" "R53"
-			(at 177.8 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 177.8 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 177.8 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6fb10892-7eaf-47fe-acc1-2fe2acb99891")
-		)
-		(pin "1"
-			(uuid "d21f5629-3aeb-4b59-b40a-88b707ffee74")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3e4a9b7-60a7-4adb-9934-20d6369be807")
-		(property "Reference" "R47"
-			(at 222.25 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 222.25 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 222.25 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8aa2c20-2b68-4799-98bc-9e28bca997a9")
-		)
-		(pin "1"
-			(uuid "86a069b3-65f3-407f-8e1b-2ba856f5c310")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5212,73 +4201,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 168.91 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d116d5ed-bafd-4d3b-b0d0-99ae225bdf0c")
-		(property "Reference" "R40"
-			(at 168.91 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.91 82.042 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 168.91 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a99788f6-4456-49ac-a3ba-8cd52e59ad0f")
-		)
-		(pin "1"
-			(uuid "744c5f52-cfb4-450b-816d-f921890fcfa1")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 63.5 58.42 0)
 		(unit 1)
@@ -5339,6 +4261,91 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de2c1f73-e49c-4830-9fce-55ae7e2ebf0b")
+		(property "Reference" "R8"
+			(at 160.02 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "52k3"
+			(at 160.02 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.02 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "R2"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.05"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "603-RT0805DRD0752K3L"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f6f5ae7-6bc3-45d8-85aa-65a8cce165e3")
+		)
+		(pin "1"
+			(uuid "db38ae98-7c9c-4e5d-8e05-928f7dcf2929")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/3d691545-fb91-40e8-bbf0-202d017ae861"
+					(reference "R8")
 					(unit 1)
 				)
 			)
