@@ -586,6 +586,12 @@
           "label": "Cost",
           "name": "Cost",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "resistor datasheet",
+          "name": "resistor datasheet",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -655,16 +661,16 @@
       "TSAL Plausibility"
     ],
     [
-      "33fbaf4f-cdc3-420c-b424-42f6ac6b44f5",
-      "SCS Integrity Check"
-    ],
-    [
       "3d691545-fb91-40e8-bbf0-202d017ae861",
       "TS Sense"
     ],
     [
       "f7b112a3-d52d-469c-9966-20e9274e8679",
       "TSAL RED"
+    ],
+    [
+      "0dfcd5ef-837e-4cef-9a29-9b1aba0a6db3",
+      "AIR Switch"
     ]
   ],
   "text_variables": {}
