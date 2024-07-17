@@ -4799,6 +4799,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "726-BSS316NH6327"
+			(at 95.25 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80c0c553-35ce-4e76-8490-c4a0b95e53e5")
 		)

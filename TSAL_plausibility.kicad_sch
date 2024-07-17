@@ -6671,7 +6671,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7k5"
+		(property "Value" "e"
 			(at 53.34 41.9099 0)
 			(effects
 				(font
@@ -7519,6 +7519,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-BSS316NH6327"
+			(at 265.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8564,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7k5"
+		(property "Value" "e"
 			(at 53.34 71.1199 0)
 			(effects
 				(font
@@ -8894,7 +8903,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7k5"
+		(property "Value" "e"
 			(at 53.34 102.8699 0)
 			(effects
 				(font

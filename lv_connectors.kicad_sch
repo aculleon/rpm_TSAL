@@ -2722,6 +2722,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -3369,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 67.31) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b15637-717b-4016-bf86-3708022d6d31")
+	)
+	(wire
+		(pts
 			(xy 257.81 43.18) (xy 248.92 43.18)
 		)
 		(stroke
@@ -3426,16 +3556,6 @@
 			(type default)
 		)
 		(uuid "2d27a21f-9294-4960-af2a-bd23fe2d781f")
-	)
-	(wire
-		(pts
-			(xy 80.01 67.31) (xy 87.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330bc928-3e0d-4584-bfdc-d3ff360d0092")
 	)
 	(wire
 		(pts
@@ -3719,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 72.39) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811f00eb-9c85-4e69-bdf7-b10bcd31f6da")
+	)
+	(wire
+		(pts
 			(xy 254 76.2) (xy 254 72.39)
 		)
 		(stroke
@@ -3779,6 +3909,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 74.93) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915a9abe-d946-4d59-8e1c-b959c9a8781b")
+	)
+	(wire
+		(pts
 			(xy 45.72 27.94) (xy 43.18 27.94)
 		)
 		(stroke
@@ -3806,6 +3946,16 @@
 			(type default)
 		)
 		(uuid "97424da5-7610-4a6b-84b5-90f9689c9ded")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9979873c-8aff-4267-91ff-63b8a2f403d7")
 	)
 	(wire
 		(pts
@@ -4026,16 +4176,6 @@
 			(type default)
 		)
 		(uuid "dafd8b74-31c7-4fb0-8f2f-79bca889e525")
-	)
-	(wire
-		(pts
-			(xy 80.01 69.85) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dddae89b-5806-44fe-8941-9015f64d74b8")
 	)
 	(wire
 		(pts
@@ -4510,35 +4650,17 @@
 		(uuid "f0e32e25-37fe-4f70-a6a9-837d3889dc84")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 67.31 0)
-		(mirror y)
+		(lib_id "power:+12V")
+		(at 92.71 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1f40fc5c-8c09-4ea7-b865-3560d3957547")
-		(property "Reference" "J9"
-			(at 80.01 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 80.01 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "wuerth_conn:66200211024"
-			(at 74.93 67.31 0)
+		(fields_autoplaced yes)
+		(uuid "1d5a6e4f-4466-40ef-a273-3a512612ddac")
+		(property "Reference" "#PWR089"
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,8 +4668,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.93 67.31 0)
+		(property "Value" "+12V"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,8 +4685,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 67.31 0)
+		(property "Datasheet" ""
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,16 +4694,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b5f80c6e-6a5a-48bc-8247-21c402a2bff0")
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "073a13e4-abb8-495e-83a1-a001ec022901")
+			(uuid "6e9421c4-7af7-4dcf-81c1-df6c3f6d72ef")
 		)
 		(instances
-			(project "rpm_TSAL"
+			(project ""
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "J9")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -4835,6 +4971,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "726-ESD131B1W0201E63"
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94c1691d-ab71-4a2f-9f34-18171ac62315")
 		)
@@ -4970,6 +5115,23 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "710-61201022021"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "5750311f-9ee0-45b3-9c5d-7a0065548040")
 		)
@@ -5063,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 24.13 149.86 0)
 			(effects
 				(font
@@ -5330,6 +5492,209 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 139.7 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "3f056072-a609-41ae-9085-5775dbac12bc")
+		(property "Reference" "J15"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-61201023021"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "4e324e9d-a03a-4f06-b667-1c7b4f9bd810")
+		)
+		(pin "9"
+			(uuid "b7c68813-14c7-4cd7-93fa-ff06ebad2359")
+		)
+		(pin "2"
+			(uuid "30422153-dbaf-4cc8-9f59-870553932ce2")
+		)
+		(pin "4"
+			(uuid "54baecf7-583a-489c-8161-8753e5d10edf")
+		)
+		(pin "1"
+			(uuid "f3ab3af1-dcd1-403a-af85-f689604aadea")
+		)
+		(pin "7"
+			(uuid "6ed7d0de-9603-41a6-99dc-0d33e0a83708")
+		)
+		(pin "5"
+			(uuid "e8530708-8111-4f8c-bcf2-79473748331d")
+		)
+		(pin "8"
+			(uuid "20c12b65-35be-431d-b20f-30fed1a6628b")
+		)
+		(pin "3"
+			(uuid "ba95479e-754c-41f3-9351-fc2dd1a27875")
+		)
+		(pin "10"
+			(uuid "9a4ec8db-0569-41e2-b72b-2aa421b70863")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 139.7 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "3ffd0cff-4b50-403c-8d21-58d2f6950ee5")
+		(property "Reference" "J11"
+			(at 137.922 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 137.922 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6b2dfb3-65fb-4d6b-bfb4-e6053c3fcff7")
+		)
+		(pin "3"
+			(uuid "e484ae04-dff7-451d-9635-507c7231073f")
+		)
+		(pin "4"
+			(uuid "178746f0-d893-4d31-98b9-57983c1dfcb1")
+		)
+		(pin "1"
+			(uuid "d908fcd9-1fdc-4ea0-a45e-80ac113df041")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5699,6 +6064,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f94d50d-86b2-4f6f-95a0-3050843aa691")
+		(property "Reference" "#PWR073"
+			(at 87.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ffbec2-d3c8-46f9-a2ce-e0c8f2b109e0")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 207.01 39.37 0)
 		(mirror y)
@@ -5764,6 +6195,258 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "56bccf52-bdee-4ee6-8d82-4a15fc47a277")
+		(property "Reference" "J12"
+			(at 120.142 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 120.142 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "932279ca-3199-4b75-b6a5-e8c3c1c0fca6")
+		)
+		(pin "3"
+			(uuid "05b5fa70-474f-4503-b37e-8844b6d63007")
+		)
+		(pin "4"
+			(uuid "a83daeea-3e68-436a-b348-08fcec34fc55")
+		)
+		(pin "1"
+			(uuid "407c8900-780a-4678-b14e-f65380a09e9f")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 116.84 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "605d05ce-b75e-44d5-80ae-388667ac10aa")
+		(property "Reference" "J13"
+			(at 115.062 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 115.062 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "80259017-5e62-4cab-a476-30d1d79960d4")
+		)
+		(pin "3"
+			(uuid "4b41e025-2f7f-44c9-a214-75065a17e4c5")
+		)
+		(pin "4"
+			(uuid "636b83f3-af11-4552-9f31-af2ce42b87c4")
+		)
+		(pin "1"
+			(uuid "0926c6a3-7d55-4849-a86d-086f59ff250e")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "689c5abf-74f1-480c-819d-f746249af59c")
+		(property "Reference" "#PWR090"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb8b942-fad8-4391-be09-fc5f5d5527c6")
+		)
+		(instances
+			(project ""
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 17.78 25.4 0)
 			(effects
 				(font
@@ -6385,7 +7068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 17.78 45.72 0)
 			(effects
 				(font
@@ -6476,6 +7159,99 @@
 			(project ""
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "786223ee-1d54-4681-8c12-b2144409d1db")
+		(property "Reference" "J9"
+			(at 120.142 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 120.142 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4cd21b2b-90fc-4438-b471-a7b41858179a")
+		)
+		(pin "3"
+			(uuid "65e03a6a-ae60-436e-b84c-f3ff7aa26ad2")
+		)
+		(pin "4"
+			(uuid "1c76b8fb-592d-4ef6-9c27-7c222378e7b4")
+		)
+		(pin "1"
+			(uuid "2bbbe412-9e01-49fd-8fa0-e138a2160c77")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6639,7 +7415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k5"
+		(property "Value" "e"
 			(at 62.23 111.7599 0)
 			(effects
 				(font
@@ -7139,13 +7915,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 17.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7839,17 +8623,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 69.85 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 68.58 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db868159-0be6-4ef5-b5ac-d048033d73a9")
-		(property "Reference" "#PWR073"
-			(at 87.63 76.2 0)
+		(uuid "d1fa3fd1-c80a-43e8-887d-90b8933066f1")
+		(property "Reference" "J14"
+			(at 66.802 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 66.802 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wuerth_conn:66200411022"
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,16 +8659,92 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 87.63 74.93 0)
+		(property "Datasheet" "~"
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-66200421022"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e257f73-9e71-4e11-ac1a-266791050dfe")
+		)
+		(pin "3"
+			(uuid "4e32bb62-d7da-4379-ae1b-236b4b86197f")
+		)
+		(pin "4"
+			(uuid "eb944c7f-df6a-4252-bf86-34a8c9e9a34d")
+		)
+		(pin "1"
+			(uuid "f0e8aa62-9587-4083-bb5d-d2e05c5fe2d9")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "daac68ea-2ffc-4d33-8a2b-366b1c5b6afb")
+		(property "Reference" "J8"
+			(at 120.142 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 120.142 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 69.85 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,8 +8752,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 69.85 0)
+		(property "Datasheet" "~"
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,22 +8761,48 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 69.85 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "457be03d-9aec-4ed7-8581-d9beb5b98364")
+		)
+		(pin "3"
+			(uuid "8aa399ff-5705-4562-b438-cf57bdd5b2da")
+		)
+		(pin "4"
+			(uuid "2f05d2fa-1b6c-44ca-8767-98adcec76c0b")
 		)
 		(pin "1"
-			(uuid "b712c8fb-d638-472f-8669-4398e01066ff")
+			(uuid "c8fab710-92ce-4934-8c73-fa122e79edc6")
 		)
 		(instances
-			(project ""
+			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "#PWR073")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7951,6 +8855,15 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, +/-5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 53.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-ESD131B1W0201E63"
 			(at 53.34 151.13 0)
 			(effects
 				(font

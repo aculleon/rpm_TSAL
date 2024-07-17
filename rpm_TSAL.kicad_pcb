@@ -4397,7 +4397,7 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53 mm (375 mils), Clearance8mm")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil Clearance8mm")
 		(property "Reference" "U4"
-			(at 0 -3.6 360)
+			(at 0 -3.6 0)
 			(layer "F.SilkS")
 			(uuid "1a9031df-d3fd-48ce-8776-aa0ec5316411")
 			(effects
@@ -4408,7 +4408,7 @@
 			)
 		)
 		(property "Value" "SFH617A-1X007T"
-			(at -0.15 4.12 360)
+			(at -0.15 4.12 0)
 			(layer "F.Fab")
 			(uuid "50e5749a-9aba-435c-8b7d-2ea7a4f47126")
 			(effects
@@ -4640,7 +4640,7 @@
 			(uuid "71011e90-f43d-48d7-abc4-8f0f91bf2803")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e4b8aa98-90ec-448c-9f8c-d55efbd5c7f7")
 			(effects
@@ -8708,7 +8708,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R38"
-			(at 0 -1.43 67)
+			(at 0.030294 -1.808229 67)
 			(layer "F.SilkS")
 			(uuid "a6adebc0-842f-4dbc-a81f-4fe1431a2ce9")
 			(effects
@@ -10212,7 +10212,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "5333913b-508d-43ec-8706-eaad5d8b5d39")
-		(at 179.075 70.6875 90)
+		(at 179.025 72.9625 90)
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
@@ -23764,7 +23764,7 @@
 		(descr "4-lead surface-mounted (SMD) DIP package, row spacing 9.53 mm (375 mils), Clearance8mm")
 		(tags "SMD DIP DIL PDIP SMDIP 2.54mm 9.53mm 375mil Clearance8mm")
 		(property "Reference" "U13"
-			(at 0 -3.6 360)
+			(at 0 -3.6 0)
 			(layer "F.SilkS")
 			(uuid "53b3d9f7-a1c1-4d6e-8fb8-bf48f6b6362b")
 			(effects
@@ -23775,7 +23775,7 @@
 			)
 		)
 		(property "Value" "SFH617A-1X007T"
-			(at 0 3.6 360)
+			(at 0 3.6 0)
 			(layer "F.Fab")
 			(uuid "5fa08ba0-a212-4397-9649-c4e7dca454fa")
 			(effects
@@ -24007,7 +24007,7 @@
 			(uuid "61c7afa8-ee22-485b-a06e-a4a12973e28a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3f695ae0-9951-4641-9917-a77353af237c")
 			(effects
@@ -24068,9 +24068,8 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.65 157)
+			(at 0.03661 1.749796 157)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "9b6aff93-e3c7-4c01-96a9-3fee08bb46e7")
 			(effects
 				(font
@@ -27901,11 +27900,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "eced5221-0cb1-47cd-9d9b-105deedfa595")
-		(at 207.6375 73.7)
+		(at 206.3875 67.95)
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "d80b093c-91d7-48ec-acca-7d5896eb4a64")
 			(effects
@@ -27916,7 +27915,7 @@
 			)
 		)
 		(property "Value" "OPA355NA"
-			(at -0.55 2.4 360)
+			(at -0.55 2.4 0)
 			(layer "F.Fab")
 			(uuid "e6a0d30b-a48f-4da1-a48e-a0b53326a0fb")
 			(effects
@@ -28139,7 +28138,7 @@
 			(uuid "e6236343-c9f7-47da-aeae-769e1f16e8d1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6e32cb00-094d-44ad-aef3-cfa063e8ab65")
 			(effects
@@ -30043,12 +30042,12 @@
 		(uuid "0450d72d-2ce4-45b5-b7b6-db4476ea88d9")
 	)
 	(segment
-		(start 184.435039 74.968458)
-		(end 180.025 71.825)
+		(start 179.975 74.1)
+		(end 184.435039 74.968458)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 47)
-		(uuid "f9fc08aa-76be-4678-ae79-429f35b2532a")
+		(uuid "f6754d57-262a-4f62-8c08-15b5887f09db")
 	)
 	(segment
 		(start 186.114961 75.681542)
