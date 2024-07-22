@@ -7,7 +7,7 @@
 	(title_block
 		(title "TSAL")
 		(date "2024-07-11")
-		(rev "V0.1")
+		(rev "V0.2")
 		(company "Team RPM - UAS Münster")
 		(comment 1 "Luca Sapion")
 	)
@@ -9466,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Logic Gates 74LVC1G32GV/SOT753/SO5 "
+		(property "Description" "Logic Gates 74LVC1G32GV/SOT753/SO5"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -10561,7 +10561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Logic Gates 74LVC1G32GV/SOT753/SO5 "
+		(property "Description" "Logic Gates 74LVC1G32GV/SOT753/SO5"
 			(at 255.27 100.33 0)
 			(effects
 				(font

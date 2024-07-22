@@ -7,7 +7,7 @@
 	(title_block
 		(title "TSAL")
 		(date "2024-07-11")
-		(rev "V0.1")
+		(rev "V0.2")
 		(company "Team RPM - UAS Münster")
 		(comment 1 "Luca Sapion")
 	)
@@ -2661,7 +2661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" " HV+"
+		(property "Value" "HV+"
 			(at 140.97 163.83 0)
 			(effects
 				(font
@@ -2814,7 +2814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" " HV_RED+"
+		(property "Value" "HV_RED+"
 			(at 53.34 85.09 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" " HV_RED+"
+		(property "Value" "HV_RED+"
 			(at 73.66 163.83 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" " HV+"
+		(property "Value" "HV+"
 			(at 97.79 85.09 0)
 			(effects
 				(font
