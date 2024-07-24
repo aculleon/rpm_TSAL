@@ -4303,6 +4303,16 @@
 		)
 		(uuid e116ceee-5ec6-4327-9326-72149a16a83d)
 	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 70.104 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ed98573-bba6-4e83-9d74-5b25b2abf553")
+	)
 	(text "DC-DC Converter"
 		(exclude_from_sim no)
 		(at 202.692 14.986 0)
@@ -4334,6 +4344,26 @@
 		)
 		(uuid "3266c16f-9243-44ba-8b45-ed88f82a9ebc")
 	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 16.002 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "452c98ed-ade0-4474-b662-1094b9133f85")
+	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 18.288 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46ff84c4-b9f1-4728-b7ce-57417b391be7")
+	)
 	(text "TSAL LEDs"
 		(exclude_from_sim no)
 		(at 19.812 124.714 0)
@@ -4353,6 +4383,16 @@
 			)
 		)
 		(uuid "86d4c553-99bc-48a9-b0d9-c77349ad8789")
+	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 17.018 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87b53435-e8bf-427e-bfcc-c5393c43e7fc")
 	)
 	(text "Shutdown Circuit"
 		(exclude_from_sim no)
@@ -6283,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 17.78 25.4 0)
 			(effects
 				(font
@@ -6317,6 +6357,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6639,7 +6687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 17.78 45.72 0)
 			(effects
 				(font
@@ -6673,6 +6721,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7491,7 +7547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 17.78 69.85 0)
 			(effects
 				(font
@@ -8198,7 +8254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 68.58 69.85 0)
 			(effects
 				(font
