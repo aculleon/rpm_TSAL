@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TSAL")
-		(date "2024-07-11")
-		(rev "V0.1")
+		(date "2024-07-23")
+		(rev "V0.3")
 		(company "Team RPM - UAS Münster")
 		(comment 1 "Luca Sapion")
 	)
@@ -1627,6 +1627,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Power_Protection:IP4252CZ16"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2722,6 +2804,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -3180,12 +3382,6 @@
 		)
 	)
 	(junction
-		(at 53.34 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cee3bc0-102d-4944-85e5-b4bc56d60a7c")
-	)
-	(junction
 		(at 260.35 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3276,18 +3472,6 @@
 		(uuid "a1be2b7b-ce55-4c90-a458-23ae99f9c137")
 	)
 	(junction
-		(at 60.96 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a72e2df0-8fd7-446d-8a3e-fe6b7e7af416")
-	)
-	(junction
-		(at 72.39 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba7b99c1-6671-4e05-8c5b-f9706b3a0532")
-	)
-	(junction
 		(at 59.69 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3323,10 +3507,6 @@
 		(color 0 0 0 0)
 		(uuid "e2f0360b-1285-4e0d-992a-f04bb2bd33f1")
 	)
-	(no_connect
-		(at 29.21 152.4)
-		(uuid "4b31253d-baea-4d70-b65e-55b26c178df3")
-	)
 	(wire
 		(pts
 			(xy 78.74 41.91) (xy 85.09 41.91)
@@ -3359,13 +3539,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 160.02) (xy 60.96 162.56)
+			(xy 73.66 67.31) (xy 87.63 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "203a073e-c44b-449c-8ede-d7a9d264a461")
+		(uuid "23b15637-717b-4016-bf86-3708022d6d31")
 	)
 	(wire
 		(pts
@@ -3419,26 +3599,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 172.72) (xy 68.58 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d27a21f-9294-4960-af2a-bd23fe2d781f")
-	)
-	(wire
-		(pts
-			(xy 80.01 67.31) (xy 87.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "330bc928-3e0d-4584-bfdc-d3ff360d0092")
-	)
-	(wire
-		(pts
 			(xy 123.19 26.67) (xy 120.65 26.67)
 		)
 		(stroke
@@ -3446,16 +3606,6 @@
 			(type default)
 		)
 		(uuid "3341ef14-e862-49be-9a7e-2399deb7bf79")
-	)
-	(wire
-		(pts
-			(xy 53.34 177.8) (xy 40.64 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ce27fa-2433-44a9-aee6-deab013d6efb")
 	)
 	(wire
 		(pts
@@ -3486,16 +3636,6 @@
 			(type default)
 		)
 		(uuid "3eb260c1-8af5-43dd-99e5-bc599d57dcb7")
-	)
-	(wire
-		(pts
-			(xy 72.39 163.83) (xy 72.39 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee3187b-98f6-412d-a9ef-4be8aab57fe3")
 	)
 	(wire
 		(pts
@@ -3569,16 +3709,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 162.56) (xy 60.96 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5802d1f2-a4f2-4653-8743-933d818ded20")
-	)
-	(wire
-		(pts
 			(xy 59.69 22.86) (xy 59.69 43.18)
 		)
 		(stroke
@@ -3639,16 +3769,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 171.45) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686eef83-8775-4e0a-8bf1-18c92a5e86f7")
-	)
-	(wire
-		(pts
 			(xy 123.19 44.45) (xy 120.65 44.45)
 		)
 		(stroke
@@ -3656,16 +3776,6 @@
 			(type default)
 		)
 		(uuid "68a2b4d2-9dcc-4c2e-9090-b172d04112c4")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 29.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69f478a0-ac14-497a-8a8b-f126799b03bc")
 	)
 	(wire
 		(pts
@@ -3719,6 +3829,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 72.39) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811f00eb-9c85-4e69-bdf7-b10bcd31f6da")
+	)
+	(wire
+		(pts
 			(xy 254 76.2) (xy 254 72.39)
 		)
 		(stroke
@@ -3726,16 +3846,6 @@
 			(type default)
 		)
 		(uuid "84fce420-85c0-4ce5-b53f-2b54afde6a45")
-	)
-	(wire
-		(pts
-			(xy 60.96 162.56) (xy 60.96 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "872bc54a-5b07-4077-aa0b-a5b92d95c5d7")
 	)
 	(wire
 		(pts
@@ -3779,6 +3889,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 74.93) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915a9abe-d946-4d59-8e1c-b959c9a8781b")
+	)
+	(wire
+		(pts
 			(xy 45.72 27.94) (xy 43.18 27.94)
 		)
 		(stroke
@@ -3809,6 +3929,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 69.85) (xy 73.66 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9979873c-8aff-4267-91ff-63b8a2f403d7")
+	)
+	(wire
+		(pts
 			(xy 123.19 39.37) (xy 120.65 39.37)
 		)
 		(stroke
@@ -3816,26 +3946,6 @@
 			(type default)
 		)
 		(uuid "99e1d19c-e514-40a1-bfc7-1a922c9b347d")
-	)
-	(wire
-		(pts
-			(xy 76.2 172.72) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f58244f-d4c4-4264-9d6b-a50a294de69e")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 40.64 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f80d698-e4c2-4ef5-a02c-a4348203ee64")
 	)
 	(wire
 		(pts
@@ -4029,26 +4139,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dddae89b-5806-44fe-8941-9015f64d74b8")
-	)
-	(wire
-		(pts
-			(xy 60.96 177.8) (xy 53.34 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e17f8c49-fbb9-4fbd-a965-aa7aa4ac9468")
-	)
-	(wire
-		(pts
 			(xy 76.2 142.24) (xy 72.39 142.24)
 		)
 		(stroke
@@ -4143,7 +4233,7 @@
 	)
 	(rectangle
 		(start 14.224 122.936)
-		(end 102.87 191.516)
+		(end 102.87 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -4213,6 +4303,16 @@
 		)
 		(uuid e116ceee-5ec6-4327-9326-72149a16a83d)
 	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 70.104 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ed98573-bba6-4e83-9d74-5b25b2abf553")
+	)
 	(text "DC-DC Converter"
 		(exclude_from_sim no)
 		(at 202.692 14.986 0)
@@ -4244,6 +4344,26 @@
 		)
 		(uuid "3266c16f-9243-44ba-8b45-ed88f82a9ebc")
 	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 16.002 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "452c98ed-ade0-4474-b662-1094b9133f85")
+	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 18.288 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46ff84c4-b9f1-4728-b7ce-57417b391be7")
+	)
 	(text "TSAL LEDs"
 		(exclude_from_sim no)
 		(at 19.812 124.714 0)
@@ -4263,6 +4383,16 @@
 			)
 		)
 		(uuid "86d4c553-99bc-48a9-b0d9-c77349ad8789")
+	)
+	(text "2x2 Conn\n"
+		(exclude_from_sim no)
+		(at 17.018 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87b53435-e8bf-427e-bfcc-c5393c43e7fc")
 	)
 	(text "Shutdown Circuit"
 		(exclude_from_sim no)
@@ -4293,6 +4423,16 @@
 			)
 		)
 		(uuid "edfffce8-d1ef-49eb-bc09-aa81a6d66c4e")
+	)
+	(text "Fixed PMOS orientation "
+		(exclude_from_sim no)
+		(at 46.99 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe34ef5c-8e07-4649-8b9a-20d3a128ec77")
 	)
 	(label "SDC"
 		(at 41.91 96.52 0)
@@ -4352,18 +4492,6 @@
 			(justify left)
 		)
 		(uuid "34711388-d0c6-4a13-a864-92b29fc147b6")
-	)
-	(hierarchical_label "TSAL_LED_RED"
-		(shape input)
-		(at 83.82 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "365f5b58-23a6-4985-8ad2-53477912e16f")
 	)
 	(hierarchical_label "AIR1_AUX"
 		(shape input)
@@ -4510,87 +4638,17 @@
 		(uuid "f0e32e25-37fe-4f70-a6a9-837d3889dc84")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 67.31 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f40fc5c-8c09-4ea7-b865-3560d3957547")
-		(property "Reference" "J9"
-			(at 80.01 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 80.01 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "wuerth_conn:66200211024"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5f80c6e-6a5a-48bc-8247-21c402a2bff0")
-		)
-		(pin "1"
-			(uuid "073a13e4-abb8-495e-83a1-a001ec022901")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 60.96 160.02 0)
+		(lib_id "power:+12V")
+		(at 92.71 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "239817ce-f9af-474e-936b-1b4b573371ae")
-		(property "Reference" "#PWR0120"
-			(at 60.96 163.83 0)
+		(uuid "1d5a6e4f-4466-40ef-a273-3a512612ddac")
+		(property "Reference" "#PWR089"
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,8 +4656,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+24V"
-			(at 60.96 154.94 0)
+		(property "Value" "+12V"
+			(at 92.71 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 160.02 0)
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 160.02 0)
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,8 +4682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 60.96 160.02 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 92.71 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,12 +4692,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa139674-4ec8-4d32-8999-f915544dcdcd")
+			(uuid "6e9421c4-7af7-4dcf-81c1-df6c3f6d72ef")
+		)
+		(instances
+			(project ""
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 24.13 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "24c1fbad-4384-4778-9ea7-2c4a726c389e")
+		(property "Reference" "J7"
+			(at 22.606 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 22.606 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wuerth_conn:66200211024"
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 24.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "103f5ea2-1248-4b95-8f32-b62216d7a613")
+		)
+		(pin "1"
+			(uuid "6923bb99-6685-4863-8fa8-0d39e6215318")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "#PWR0120")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4781,76 +4917,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 53.34 181.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d183d63-93ec-4239-8527-dfa07414d644")
-		(property "Reference" "D4"
-			(at 50.8 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD"
-			(at 50.8 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 53.34 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 53.34 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, +/-5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 53.34 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94c1691d-ab71-4a2f-9f34-18171ac62315")
-		)
-		(pin "2"
-			(uuid "347307bd-a0a1-4566-9352-e8416bee8bb7")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 87.63 67.31 0)
 		(unit 1)
@@ -4917,6 +4983,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 187.96 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9767a2-882c-4a40-a82a-8e1c8ab286ae")
+		(property "Reference" "H3"
+			(at 190.5 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 190.5 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 187.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 187.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 187.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 73.66 34.29 0)
 		(mirror y)
@@ -4943,7 +5081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Latch6.5mm_Vertical"
 			(at 73.66 34.29 0)
 			(effects
 				(font
@@ -4968,6 +5106,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser" "710-61201022021"
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 73.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -5004,157 +5159,6 @@
 			(project ""
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 24.13 149.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34d2d808-9e3a-4c16-b993-cc7d89bd43c6")
-		(property "Reference" "J7"
-			(at 24.13 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 24.13 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "wuerth_conn:66200411022"
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "66200411022"
-			(at 24.13 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b216c46-48a4-4778-a201-21614c0e64c5")
-		)
-		(pin "2"
-			(uuid "6d938eb9-d801-4a9b-b259-648ba781c816")
-		)
-		(pin "4"
-			(uuid "0398db43-40fb-41ac-86cb-6d6025884133")
-		)
-		(pin "3"
-			(uuid "522d9fb6-2485-4384-a150-e78a91f40178")
-		)
-		(instances
-			(project ""
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37c387d4-eef7-4228-95de-bf9a20711f66")
-		(property "Reference" "#PWR0105"
-			(at 53.34 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc95c235-e713-47df-af0d-046e32329d68")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5227,45 +5231,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 63.5 172.72 0)
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 139.7 78.74 0)
 		(mirror y)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "3cde4bf3-48d6-475f-bfd5-d56c65de574b")
-		(property "Reference" "Q6"
-			(at 57.15 171.4499 0)
+		(uuid "3f056072-a609-41ae-9085-5775dbac12bc")
+		(property "Reference" "J15"
+			(at 139.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 57.15 173.9899 0)
+		(property "Value" "Conn_01x10"
+			(at 139.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 58.42 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 63.5 185.42 0)
+		(property "Footprint" ""
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,8 +5266,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 63.5 172.72 0)
+		(property "Datasheet" "~"
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,8 +5275,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 63.5 189.865 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,17 +5284,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 63.5 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 63.5 187.96 0)
+		(property "Mouser" "710-61201023021"
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,26 +5294,140 @@
 			)
 		)
 		(property "resistor datasheet" ""
-			(at 63.5 172.72 0)
+			(at 139.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "1"
-			(uuid "feeb91f8-19c1-4ca2-83fe-eb96e8332ff4")
+		(pin "6"
+			(uuid "4e324e9d-a03a-4f06-b667-1c7b4f9bd810")
+		)
+		(pin "9"
+			(uuid "b7c68813-14c7-4cd7-93fa-ff06ebad2359")
 		)
 		(pin "2"
-			(uuid "4a01787f-d4bc-4a79-b788-148cf10779e8")
+			(uuid "30422153-dbaf-4cc8-9f59-870553932ce2")
+		)
+		(pin "4"
+			(uuid "54baecf7-583a-489c-8161-8753e5d10edf")
+		)
+		(pin "1"
+			(uuid "f3ab3af1-dcd1-403a-af85-f689604aadea")
+		)
+		(pin "7"
+			(uuid "6ed7d0de-9603-41a6-99dc-0d33e0a83708")
+		)
+		(pin "5"
+			(uuid "e8530708-8111-4f8c-bcf2-79473748331d")
+		)
+		(pin "8"
+			(uuid "20c12b65-35be-431d-b20f-30fed1a6628b")
 		)
 		(pin "3"
-			(uuid "a6c48ca7-5fe7-4c63-9370-c91c39524ff0")
+			(uuid "ba95479e-754c-41f3-9351-fc2dd1a27875")
+		)
+		(pin "10"
+			(uuid "9a4ec8db-0569-41e2-b72b-2aa421b70863")
 		)
 		(instances
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "Q6")
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 139.7 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "3ffd0cff-4b50-403c-8d21-58d2f6950ee5")
+		(property "Reference" "J11"
+			(at 137.922 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 137.922 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6b2dfb3-65fb-4d6b-bfb4-e6053c3fcff7")
+		)
+		(pin "3"
+			(uuid "e484ae04-dff7-451d-9635-507c7231073f")
+		)
+		(pin "4"
+			(uuid "178746f0-d893-4d31-98b9-57983c1dfcb1")
+		)
+		(pin "1"
+			(uuid "d908fcd9-1fdc-4ea0-a45e-80ac113df041")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5699,6 +5797,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f94d50d-86b2-4f6f-95a0-3050843aa691")
+		(property "Reference" "#PWR073"
+			(at 87.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4ffbec2-d3c8-46f9-a2ce-e0c8f2b109e0")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 207.01 39.37 0)
 		(mirror y)
@@ -5764,6 +5928,232 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "56bccf52-bdee-4ee6-8d82-4a15fc47a277")
+		(property "Reference" "J12"
+			(at 120.142 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 120.142 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "932279ca-3199-4b75-b6a5-e8c3c1c0fca6")
+		)
+		(pin "3"
+			(uuid "05b5fa70-474f-4503-b37e-8844b6d63007")
+		)
+		(pin "4"
+			(uuid "a83daeea-3e68-436a-b348-08fcec34fc55")
+		)
+		(pin "1"
+			(uuid "407c8900-780a-4678-b14e-f65380a09e9f")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 99.06 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "689c5abf-74f1-480c-819d-f746249af59c")
+		(property "Reference" "#PWR090"
+			(at 99.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 99.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bb8b942-fad8-4391-be09-fc5f5d5527c6")
+		)
+		(instances
+			(project ""
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6924bd42-7f2e-4152-b99a-58380351eb73")
+		(property "Reference" "#PWR091"
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01684e69-f845-467c-9c83-e863f08e8545")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -5906,75 +6296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 172.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d9250ac-655d-4d93-9ffe-ca395ae9b409")
-		(property "Reference" "R79"
-			(at 80.01 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200R"
-			(at 80.01 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 80.01 174.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 80.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bccc7206-ad2d-4e95-ba40-fdfeaf1345cd")
-		)
-		(pin "1"
-			(uuid "cdd3c9ae-0d2f-4b6e-bcb6-15fc891ad9c4")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "R79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 17.78 25.4 0)
 		(mirror y)
@@ -6002,7 +6323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 17.78 25.4 0)
 			(effects
 				(font
@@ -6029,13 +6350,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 17.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6358,7 +6687,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 17.78 45.72 0)
 			(effects
 				(font
@@ -6385,13 +6714,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 17.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6417,7 +6754,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 154.94 0)
+		(at 29.21 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6426,7 +6763,7 @@
 		(fields_autoplaced yes)
 		(uuid "7817a889-0ef9-400b-979b-27311a564408")
 		(property "Reference" "#PWR08"
-			(at 29.21 161.29 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6772,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 160.02 0)
+			(at 29.21 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 154.94 0)
+			(at 29.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 154.94 0)
+			(at 29.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 154.94 0)
+			(at 29.21 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,6 +6813,99 @@
 			(project ""
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "786223ee-1d54-4681-8c12-b2144409d1db")
+		(property "Reference" "J9"
+			(at 120.142 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 120.142 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 121.92 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4cd21b2b-90fc-4438-b471-a7b41858179a")
+		)
+		(pin "3"
+			(uuid "65e03a6a-ae60-436e-b84c-f3ff7aa26ad2")
+		)
+		(pin "4"
+			(uuid "1c76b8fb-592d-4ef6-9c27-7c222378e7b4")
+		)
+		(pin "1"
+			(uuid "2bbbe412-9e01-49fd-8fa0-e138a2160c77")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6999,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k	"
+		(property "Value" "30k"
 			(at 62.23 101.5999 0)
 			(effects
 				(font
@@ -6639,7 +7069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k5"
+		(property "Value" "e"
 			(at 62.23 111.7599 0)
 			(effects
 				(font
@@ -6751,73 +7181,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 185.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c1eee12-e47c-4a84-ad01-2299737fbea3")
-		(property "Reference" "#PWR0104"
-			(at 53.34 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f705e2a2-c5bc-4935-aa4e-70dcc2bd59d9")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -7085,6 +7448,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 210.82 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3b9711b-ea82-41d4-ae3c-46bb6fa313aa")
+		(property "Reference" "H2"
+			(at 213.36 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 210.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 210.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 210.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 17.78 69.85 0)
 		(mirror y)
@@ -7112,7 +7547,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "wuerth_conn:66200411022"
+		(property "Footprint" "wuerth_conn:66200421022"
 			(at 17.78 69.85 0)
 			(effects
 				(font
@@ -7139,13 +7574,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "66200411022"
+		(property "Mouser" "710-66200421022"
 			(at 17.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7240,6 +7683,14 @@
 				(hide yes)
 			)
 		)
+		(property "resistor datasheet" ""
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "be3ef1dd-fb73-4f46-b0cf-aa5371597cb0")
 		)
@@ -7263,17 +7714,15 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 63.5 142.24 0)
-		(mirror y)
+		(at 63.5 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9138eb4-61bb-40ab-a216-11f2a2db9293")
 		(property "Reference" "Q5"
-			(at 57.15 140.9699 0)
+			(at 57.15 143.5101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +7731,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 57.15 143.5099 0)
+			(at 57.15 140.9701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +7740,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 58.42 139.7 0)
+			(at 58.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7749,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 63.5 154.94 0)
+			(at 63.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7767,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 63.5 159.385 0)
+			(at 63.5 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7776,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 63.5 161.29 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7785,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 63.5 157.48 0)
+			(at 63.5 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,75 +8083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 72.39 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c41e608e-d36a-450a-9297-42dcbe62818a")
-		(property "Reference" "R80"
-			(at 69.85 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 70.612 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 72.39 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a40a3703-2740-425d-baf3-2f1ff69980ee")
-		)
-		(pin "1"
-			(uuid "92c0770d-7b00-4cb1-8d6a-dccff99e10c7")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "R80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 17.78 96.52 0)
 		(mirror y)
@@ -7755,6 +8135,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 17.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7839,17 +8227,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 69.85 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 68.58 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db868159-0be6-4ef5-b5ac-d048033d73a9")
-		(property "Reference" "#PWR073"
-			(at 87.63 76.2 0)
+		(uuid "d1fa3fd1-c80a-43e8-887d-90b8933066f1")
+		(property "Reference" "J14"
+			(at 66.802 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 66.802 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wuerth_conn:66200421022"
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,16 +8263,92 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 87.63 74.93 0)
+		(property "Datasheet" "~"
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "710-66200421022"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e257f73-9e71-4e11-ac1a-266791050dfe")
+		)
+		(pin "3"
+			(uuid "4e32bb62-d7da-4379-ae1b-236b4b86197f")
+		)
+		(pin "4"
+			(uuid "eb944c7f-df6a-4252-bf86-34a8c9e9a34d")
+		)
+		(pin "1"
+			(uuid "f0e8aa62-9587-4083-bb5d-d2e05c5fe2d9")
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 121.92 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "daac68ea-2ffc-4d33-8a2b-366b1c5b6afb")
+		(property "Reference" "J8"
+			(at 120.142 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 120.142 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 69.85 0)
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,8 +8356,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 69.85 0)
+		(property "Datasheet" "~"
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,22 +8365,120 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 69.85 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Mouser" "710-662004113322 "
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 121.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "457be03d-9aec-4ed7-8581-d9beb5b98364")
+		)
+		(pin "3"
+			(uuid "8aa399ff-5705-4562-b438-cf57bdd5b2da")
+		)
+		(pin "4"
+			(uuid "2f05d2fa-1b6c-44ca-8767-98adcec76c0b")
 		)
 		(pin "1"
-			(uuid "b712c8fb-d638-472f-8669-4398e01066ff")
+			(uuid "c8fab710-92ce-4934-8c73-fa122e79edc6")
 		)
 		(instances
-			(project ""
+			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
-					(reference "#PWR073")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 187.96 166.37 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd157597-b76d-492e-aacd-534bc1ddb468")
+		(property "Reference" "H5"
+			(at 190.5 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 190.5 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 187.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 187.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 187.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -7951,6 +8531,15 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, +/-5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 53.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "726-ESD131B1W0201E63"
 			(at 53.34 151.13 0)
 			(effects
 				(font
@@ -8432,6 +9021,150 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 210.82 157.48 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f541331c-0bfe-44b6-8da7-69b1e1d5c596")
+		(property "Reference" "H4"
+			(at 213.36 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 213.36 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 210.82 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "rpm_TSAL"
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 187.96 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7daa866-2c97-460a-ad8d-177db9576066")
+		(property "Reference" "H1"
+			(at 190.5 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 190.5 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "resistor datasheet" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826/82ce20ac-d113-4cbe-a341-3a0579a7187c"
+					(reference "H1")
 					(unit 1)
 				)
 			)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TSAL")
-		(date "2024-07-11")
-		(rev "V0.1")
+		(date "2024-07-23")
+		(rev "V0.3")
 		(company "Team RPM - UAS Münster")
 		(comment 1 "Luca Sapion")
 	)
@@ -1505,12 +1505,6 @@
 		(uuid "78d40070-a850-4a4e-a761-abca9b7d1160")
 	)
 	(junction
-		(at 138.43 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a2a0348-4d7e-49c7-aaee-22c801587b40")
-	)
-	(junction
 		(at 71.12 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1529,6 +1523,12 @@
 		(uuid "c6560251-d71f-47bb-8f25-f908cb1d7a5a")
 	)
 	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5a922f6-dbbd-446f-968e-f3b9e3e9460f")
+	)
+	(junction
 		(at 101.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1539,6 +1539,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6265b20-3e0a-4a19-b8ad-5f0fb4131786")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 138.43 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d39104-b1e9-46ad-9f57-89dd31089163")
 	)
 	(wire
 		(pts
@@ -1603,6 +1613,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 100.33) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30db826e-d009-43fb-8bfe-d9c14ebed630")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f08e64-e9e0-4d63-8e3b-7d51b3c22eaa")
+	)
+	(wire
+		(pts
 			(xy 125.73 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -1634,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 128.27 96.52)
+			(xy 128.27 93.98) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 96.52) (xy 138.43 96.52)
+			(xy 128.27 97.79) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1798,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 149.86 96.52)
+			(xy 138.43 97.79) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1868,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 149.86 91.44)
+			(xy 149.86 97.79) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2783,7 @@
 	)
 	(hierarchical_label "TS-"
 		(shape input)
-		(at 138.43 96.52 270)
+		(at 138.43 100.33 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3745,7 +3775,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 87.63 0)
+		(at 149.86 90.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3754,7 +3784,7 @@
 		(dnp no)
 		(uuid "90a7f69f-a335-4aea-8c2b-4b4db96299dd")
 		(property "Reference" "R38"
-			(at 153.67 89.408 0)
+			(at 153.67 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,7 +3792,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 153.67 86.868 0)
+			(at 153.67 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3800,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.082 87.63 90)
+			(at 148.082 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 87.63 0)
+			(at 149.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3818,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 149.86 87.63 0)
+			(at 149.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

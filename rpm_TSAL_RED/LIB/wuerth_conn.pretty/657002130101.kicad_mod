@@ -1,0 +1,120 @@
+(footprint "657002130101"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.84 7.29 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ec735d9-c9ee-4a1b-8acb-e4b33a06165f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "657002130101"
+		(at -0.94 -2.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8168e415-99cf-4dd2-ba47-1c2c8697bf95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.94 -3.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9f15a99-4269-4536-96a9-6ff999b0226e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.94 -3.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf28501e-a131-4f0c-a633-508d613a57fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.94 -3.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7402a852-e9a0-40f1-a374-7eaaf2f9ba5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.21 -2.85)
+		(end 9.05 16.29)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c7219d8c-66a8-4994-a068-b995c9b31e99")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.94 -0.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0eaad3ca-7cb1-43b1-9bc7-4870cea8a2b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fde01675-4c45-4e0c-a775-06dec062e1b9")
+	)
+	(pad "2" thru_hole circle
+		(at 5.7 0)
+		(size 3.5 3.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c32907f-49e8-429f-b715-2393cef8407a")
+	)
+	(model "${KIPRJMOD}/3D/STP_MPC5_657002130101 (rev1).stp"
+		(offset
+			(xyz 2.8 -8.2 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
