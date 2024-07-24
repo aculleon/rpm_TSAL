@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "TSAL")
-		(date "2024-07-11")
-		(rev "V0.2")
+		(date "2024-07-23")
+		(rev "V0.3")
 		(company "Team RPM - UAS Münster")
 		(comment 1 "Luca Sapion")
 	)
@@ -624,16 +624,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 99.06) (xy 21.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7144f41e-7518-41f5-b6e2-8614e88acc82")
-	)
-	(wire
-		(pts
 			(xy 167.64 47.752) (xy 167.64 58.42)
 		)
 		(stroke
@@ -641,16 +631,6 @@
 			(type default)
 		)
 		(uuid "72d5017a-9e80-497a-9373-cad682f28f0d")
-	)
-	(wire
-		(pts
-			(xy 21.59 30.48) (xy 21.59 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73155d4a-77ad-4117-ab65-2321db0d9cea")
 	)
 	(wire
 		(pts
@@ -791,16 +771,6 @@
 			(type default)
 		)
 		(uuid "cf4ef09c-c605-4001-b979-7147d3e79a58")
-	)
-	(wire
-		(pts
-			(xy 114.3 30.48) (xy 21.59 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca6aecb-464a-433d-bae3-36a646adece6")
 	)
 	(wire
 		(pts
@@ -1863,16 +1833,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 20.32 171.45 0)
-		(mirror y)
+		(at 20.32 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a190ad9-1c99-4c16-ba1b-f28564a8fdff")
+		(uuid "0489b526-9848-4aed-8f8d-f6e3e3919c2c")
 		(property "Reference" "J1"
-			(at 20.32 167.386 0)
+			(at 20.32 178.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1849,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 20.32 164.846 0)
+			(at 20.32 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1857,7 @@
 			)
 		)
 		(property "Footprint" "wuerth_conn:657002130101"
-			(at 20.32 171.45 0)
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1866,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/657002130101.pdf"
-			(at 20.32 171.45 0)
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1875,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 171.45 0)
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1884,7 @@
 			)
 		)
 		(property "Mouser" "710-657002130101"
-			(at 20.32 171.45 0)
+			(at 20.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,13 +1893,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "b08f1d14-a194-43e6-b66d-024ed6f0c91b")
+			(uuid "341d0097-dd78-4154-b33f-84bd28e35e0d")
 		)
 		(pin "1"
-			(uuid "a2270227-5349-4eba-b885-1c1cafd6f25b")
+			(uuid "84778b97-3366-4adc-821d-1a2f05aa9127")
 		)
 		(instances
-			(project ""
+			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
 					(reference "J1")
 					(unit 1)
@@ -2026,72 +1995,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-6V")
-		(at 53.34 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f186dd9-201b-41ae-810a-c2996fb02483")
-		(property "Reference" "#PWR013"
-			(at 53.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HV_RED-"
-			(at 53.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-6V\""
-			(at 53.34 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5fb2217-4192-4f82-992a-e92365a16b75")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+7.5V")
 		(at 63.5 171.45 0)
 		(unit 1)
@@ -2152,72 +2055,6 @@
 			(project ""
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+7.5V")
-		(at 53.34 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71376133-12ff-4724-b330-992e772ab34e")
-		(property "Reference" "#PWR014"
-			(at 53.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "HV_RED+"
-			(at 53.34 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b1c59aa-f2d8-4418-a783-71f481529e5b")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3016,16 +2853,6 @@
 			)
 			(uuid "fe514c5c-b4fa-4164-b364-1e008eb35fc2")
 		)
-		(pin "TSAL_LED_RED" input
-			(at 114.3 30.48 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "161284d6-59e1-42f2-b327-b4e0406bd4f9")
-		)
 		(pin "TSAL_ERROR" input
 			(at 158.75 47.752 270)
 			(effects
@@ -3150,74 +2977,6 @@
 			(project "rpm_TSAL"
 				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 26.67 90.17)
-		(size 35.56 19.05)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f7b112a3-d52d-469c-9966-20e9274e8679")
-		(property "Sheetname" "TSAL RED"
-			(at 26.67 89.4584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "TSAL_red.kicad_sch"
-			(at 26.67 109.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "TS-" input
-			(at 53.34 109.22 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e2785845-56db-4f92-8308-bf2a49fa655e")
-		)
-		(pin "TS+" input
-			(at 53.34 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f402f4c7-e0ad-4940-a7cd-96659dc0404a")
-		)
-		(pin "TSAL_RED_OUT" output
-			(at 26.67 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f70f41a6-be3c-4884-9934-8f764bc3abe9")
-		)
-		(instances
-			(project "rpm_TSAL"
-				(path "/d61aec95-1a95-4bdc-98ef-7f05cebfb826"
-					(page "6")
 				)
 			)
 		)
