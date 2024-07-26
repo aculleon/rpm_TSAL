@@ -1,0 +1,4 @@
+1. We are using P-MOSFETs to control the TSAL on the Mainhoop (TSAL Schematic Page 2 and TSAL RED Schematic Page 1). We are using an industrial 1 segment signal lamp (DV2120). We cannot provide a detailed schematic of the LED.
+3. We discarded the CANBus concept and are connecting the cockpit TS Off indicator to the same Cable as the TSAL LED.
+5. This is correct. It is an additional safety check for the software stucking detection. 
+9. We split the TSAL into 2 PCBs. The TSAL PCB remains inside the TSAC and the TSAL RED PCB is located inside the HVD enclosure(i.e. outside the TSAC) 
