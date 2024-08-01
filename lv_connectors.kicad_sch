@@ -4946,6 +4946,18 @@
 		)
 		(uuid "908a6577-1c1f-4a79-9c4a-12787e1d8f68")
 	)
+	(hierarchical_label "PRCH_SW"
+		(shape output)
+		(at 123.19 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91fa6ca5-59c6-45dc-a07f-f3f1079167a1")
+	)
 	(hierarchical_label "AIR2_AUX"
 		(shape input)
 		(at 123.19 29.21 0)
@@ -4957,6 +4969,18 @@
 			(justify left)
 		)
 		(uuid "a1259590-5b73-4e00-89be-d4c8a3ccb036")
+	)
+	(hierarchical_label "AIR1_SW"
+		(shape output)
+		(at 123.19 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a618150c-2145-415b-a6e3-aea1417cb112")
 	)
 	(hierarchical_label "TSAL_LED_GREEN"
 		(shape input)
@@ -5029,30 +5053,6 @@
 			(justify left)
 		)
 		(uuid "e1f66805-dd8d-47ff-808c-7ee35dfe76a4")
-	)
-	(hierarchical_label "AIR1_SW"
-		(shape output)
-		(at 123.19 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eddf664d-25c5-4e00-a031-af06a3175aa6")
-	)
-	(hierarchical_label "PRCH_SW"
-		(shape output)
-		(at 123.19 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0e32e25-37fe-4f70-a6a9-837d3889dc84")
 	)
 	(hierarchical_label "TS_ON"
 		(shape input)
